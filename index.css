@@ -1,0 +1,414 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'poppins','sans-serif';
+}
+
+.pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../images/Frases-sobre-el-deporte.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pagina-index{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/Frases-sobre-el-deporte.jpg");
+}
+
+.caja{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: greenyellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+}
+
+.caja-register {
+    position: relative;
+    width: 450px;
+    background: greenyellow;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    min-height: 600px;
+    padding: 30px; 
+    box-sizing: border-box;
+}
+
+.caja-forget{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: greenyellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+h2{
+    font-size: 2em;
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.datos{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.datos label{
+    position: absolute;
+    top:50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color:black;
+    font-size: 1em;
+    pointer-events: none;
+}
+
+.datos input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color:black;
+}
+
+.datos ion-icon{
+    position: absolute;
+    right: 8px;
+}
+
+.boton{
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   display: flex;
+
+}
+
+.datos label{
+    position: absolute;
+    top:50%;
+    left:5px;
+    transform: translateY(-50%);
+    color:black;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .7s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top:-5px;
+    
+}
+
+
+.registrar{
+    font-size: 1em;
+    text-align: center;
+}
+
+.iniciar_sesion{
+    font-size: 1em;
+    text-align: center;
+}
+
+.inicio{
+    font-size: 2em;
+    text-align: center;
+}
+
+.registro{
+    font-size: 2em;
+    text-align: center;
+}
+
+.fondo{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../images/beneficios-del-ciclismo-0-120465291_m-2048x1365.jpg");
+}
+
+.header {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all;
+}
+
+.header .logo img:hover{
+    transform:scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display:inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.header .boton button{
+    color:white;
+    padding: 9px 25px;
+    background-color: black;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+input[type="search"]{
+    border: none;
+}
+
+.mapa{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="button"] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+.info-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.info-perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-perfil-amigo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('../images/Alonso_2016.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.informacion{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.informacion span{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.amigos{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.numero-aplausos{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#lista-amigos{
+    display: none;
+}
+
+#lista-amigos:target{
+    display: block;
+}
+
+#lista-aplausos1{
+    display: none;
+}
+
+#lista-aplausos1:target{
+    display: block;
+}
+
+#lista-aplausos2{
+    display: none;
+}
+
+#lista-aplausos2:target{
+    display: block;
+}
+
+#lista-aplausos3{
+    display: none;
+}
+
+#lista-aplausos3:target{
+    display: block;
+}
+
+.publicaciones{
+    font-weight: bold;
+}
+
+.pagina-editar-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.caja-editar{
+    position: relative;
+    width: 450px;
+    height: 1030px;
+    background: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.publicacion{
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+
+.info-publicacion{
+    display: flex; 
+    align-items: center;
+}
+
+.interacciones{
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.foto-perfil-amigo{
+    width: 130px; 
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.amigo-info {
+    font-weight: bold;
+}
+
+.amigo-nombre {
+    color: black; 
+}
+
+.amigo-apellidos {
+    color: black; 
+}
+
+.amigo-usuario {
+    color: rgb(156, 153, 153); 
+}
+
+.amigo-foto {
+    width: 50px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.imagenes-web {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.imagen-item {
+    display: flex;
+    justify-content: center;
+}
+
+.publicacion-imagen-web {
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
